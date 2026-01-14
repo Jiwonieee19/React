@@ -14,5 +14,5 @@ function App() {
   );
 
 }
-
+//btw, public folderr is for something/resources that contains link outside the project, while asset is the internal pics or watsoever
 export default App
