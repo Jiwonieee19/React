@@ -1,0 +1,14 @@
+/* MODULE TYPE IS BY CREATING A SEPARATE FOLDER FOR A COMPONENT */
+
+.button {
+    background-color: white;
+    font-family: Arial;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: black solid 1px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+/* MODULE CSS STYLESHEET */
