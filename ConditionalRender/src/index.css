@@ -1,0 +1,19 @@
+.welcome-message {
+  font-size: 2.5em;
+  background-color: green;
+  font-family: Arial, Sans-Serif;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt {
+  font-size: 2.5em;
+  background-color: red;
+  font-family: Arial, Sans-Serif;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
