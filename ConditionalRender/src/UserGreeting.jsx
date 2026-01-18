@@ -26,7 +26,7 @@ UserGreeting.propTypes = {
     username: PropTypes.string,
 }
 // If your project was recently created or updated to React 19, PropTypes have been entirely removed from the React core and are now silently ignored. 
-// which is react19 na ni, check on package.json
+// which is react19 na ni, checked on package.json
 
 // UserGreeting.defaultProps = {
 //     isLoggedIn: false,
