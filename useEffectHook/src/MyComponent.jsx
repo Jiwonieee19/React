@@ -33,6 +33,14 @@ function MyComponent() {
         document.title = `Count and Color: ${count} ${color}`
     }, [count, color]) //if these are the dependencies, mo render siya every time naay ma change anang duha
 
+    useEffect(() => {
+        document.title = `Count and Color: ${count} ${color}`
+
+        return () => {
+            // can return when to unmount dependencies or remove it on the dom or event listener or just clean up code
+        }
+    }, [count, color])
+
     return (<>
         <p style={{ color: color }}>Count: {count}</p>
         <button onClick={() => setCount(count + 1)}>Add</button>
@@ -46,5 +54,6 @@ function MyComponent() {
 // to look more organize and readable if when this function will run and so on, 
 // since removing the use effect on the top, it will still work (docu.title = `dkfdkdkf`) but will always run every re-render on the code
 // to manipulate better of the datas and codes
+// NOTE THAT THEY ARE SOME ADVANCE METHOD THAT CAN BE APPLIED INSIDE THE USEEFFECT, LIKE SUBSCRIPTION AND RETURN
 
 export default MyComponent
