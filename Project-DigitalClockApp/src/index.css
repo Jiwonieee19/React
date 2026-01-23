@@ -1,0 +1,37 @@
+body {
+  background-image: url(assets/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* instead of relying only in center position, this one will center the pic and cover the whole screen with it */
+  background-attachment: fixed;
+  /* maintained the bg aspect ratio whenever resize */
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 40vh;
+  align-items: center;
+
+  /* min-height: 100vh; 
+  //means nga 100percent consider as viewport height and current height and sa center ang align-items, if fix ang size sa height like px, 
+  //yes center siya if wla pa na resize but not na if resized, in 20vh what i did is to put the items on top part of the body
+  align-items: center; */
+}
+
+.clock-container {
+  justify-items: center;
+  /* to look glass */
+  backdrop-filter: blur(3px);
+  width: 100vw;
+  padding: 15px 0;
+}
+
+.clock {
+  color: aliceblue;
+  font-family: monospace;
+  font-size: 6rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px orange;
+  text-align: center;
+}
