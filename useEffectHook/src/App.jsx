@@ -18,7 +18,7 @@
 
 // mounting is adding a component in a DOM, can also remove a component
 
-import MyComponent from './MyComponent.jsx'
+import MyComponent from './MyComponent1.jsx'
 
 function App() {
 
