@@ -4,13 +4,41 @@ body {
 
 .main-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  min-height: 70vh;
+  /* min-height: 80vh; */
   align-items: center;
+  margin: 30vh 60px;
+  padding: 40px;
+  border: solid 10px black;
+  border-radius: 6rem;
 }
 
 .main-container span {
   font-family: monospace;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.button-container button {
+  margin: 20px 10px;
+  padding: 10px;
+  border: solid 3px black;
+  color: black;
+  border-radius: 15px;
+  font-weight: bold;
+  /* background-color: aqua; */
+}
+
+.start-button {
+  background-color: greenyellow;
+}
+
+.stop-button {
+  background-color: lightcoral;
+}
+
+.reset-button {
+  background-color: yellow;
 }
