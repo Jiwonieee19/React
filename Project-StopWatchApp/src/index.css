@@ -1,0 +1,16 @@
+body {
+  background-color: aqua;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  align-items: center;
+}
+
+.main-container span {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2rem;
+}
